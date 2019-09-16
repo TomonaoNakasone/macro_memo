@@ -1,0 +1,4 @@
+' 現在のシートの全セルの状態を初期化
+Sub AllCellDataClear()
+    ActiveSheet.UsedRange.Clear
+End Sub
